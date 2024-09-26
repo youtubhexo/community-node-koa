@@ -25,5 +25,6 @@ app.use(cors());
 
 app
 .use(router())
-;app.use(cors());
+;
+app.use(cors());
 app.listen(3000);
